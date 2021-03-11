@@ -3,12 +3,10 @@ import './App.css';
 import Home from './components/Home/Home.js';
 import {
   BrowserRouter as Router,
-  Link,
   Route,
   Switch
 } from "react-router-dom";
 import NoMatch from './components/NoMatch/NoMatch';
-import TeamDetails from './components/TeamDetails/TeamDetails';
 import ClubDetails from './components/ClubDetails/ClubDetails';
 
 

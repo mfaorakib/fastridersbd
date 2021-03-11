@@ -1,8 +1,6 @@
 import React from 'react';
-import { Jumbotron, Col, Row, Card } from 'react-bootstrap'
-import ReactDOM from 'react-dom'
+import { Jumbotron, Col, Row} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee} from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faYoutubeSquare, faTwitterSquare } from "@fortawesome/free-brands-svg-icons"
 
 import imageFemale from '../image/female.png'
