@@ -14,7 +14,7 @@ const ClubDetails = () => {
             }
             )
 
-    }, [])
+    }, [idTeam])
     return (
         <div>
             {

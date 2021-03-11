@@ -25,14 +25,14 @@ const ClubInfo = (props) => {
         if (strGender === "Male") {
             return (
 
-                <img style={{ width: '100%' }} src={imageMale} />
+                <img style={{ width: '100%' }} src={imageMale} alt='banner' />
 
             )
         }
         else {
             return (
 
-                <img style={{ width: '100%' }} src={imageFemale} />
+                <img style={{ width: '100%' }} src={imageFemale} alt='banner' />
 
             )
 
@@ -52,7 +52,7 @@ const ClubInfo = (props) => {
                         marginRight: 'auto',
                         maxHeight: '100px'
 
-                    }} src={strTeamBadge} />
+                    }} src={strTeamBadge} alt='banner'/>
 
                 </Jumbotron>
             </div>
